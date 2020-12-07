@@ -1,0 +1,6 @@
+package password.devsapps.com
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

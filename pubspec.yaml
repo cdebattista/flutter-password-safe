@@ -1,0 +1,46 @@
+name: password
+description: Password keeper
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.16.1
+  encrypt: ^4.1.0
+  tuple: ^1.0.3
+  shared_preferences: ^0.5.12+4
+  sqflite: ^1.3.2+1
+  sqflite_common_ffi:
+  path: ^1.7.0
+  http: ^0.12.2
+  flutter_launcher_icons: ^0.8.1
+  flutter_session: ^0.1.1
+  flutter_pagewise: ^1.2.3
+  flutter_colorpicker: ^0.3.4
+  flutter_slidable: ^0.5.7
+  flutter_typeahead: ^1.9.1
+  faker: ^1.3.0
+  basic_utils: ^2.7.0-rc.1
+  url_launcher: ^5.7.10
+  cupertino_icons: ^1.0.1
+dependency_overrides:
+  intl: ^0.17.0-nullsafety.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/launcher_icon/password.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+  generate: true
+flutter_intl:
+  enabled: true
